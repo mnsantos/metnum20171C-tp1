@@ -114,20 +114,6 @@ Matriz Matriz:: operator *(double n) {
   return C;
 }
 
-Matriz Matriz::subMatriz(int n){
-  int k = this -> columnas() - n;
-  if (k < 0) {
-    throw runtime_error("La submatriz no se encuentra definida para el n recibido como parametro");
-  }
-  Matriz C = Matriz(this->filas()-n, this->columnas()-n);
-  for(int i=n;i<this->filas();i++){
-    for(int j=n;j<this->columnas();j++){
-      C[i][j] = data[i][j];
-    }
-  }
-  return C;
-}
-
 bool Matriz::esTriangularSuperior(){
   for (int i=0; i<this->filas(); i++){
     for (int j=0; j<i-1; j++){

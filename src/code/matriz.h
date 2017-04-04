@@ -29,8 +29,6 @@ public:
     bool esTriangularSuperior();
     bool esTriangularInferior();
     Matriz trasponer();
-    Matriz subMatriz(int n);
-
 };
 
 ostream& operator<<(ostream& os, Matriz& m);
