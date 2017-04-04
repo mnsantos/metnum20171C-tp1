@@ -1,5 +1,6 @@
 #include "matriz.h"
 #include <stdexcept>
+#include <math.h>
 
 using namespace std;
 
@@ -32,12 +33,13 @@ int Matriz::columnas() {
 }
 
 Matriz Matriz::trasponer() {
-  Matriz C = Matriz(this -> filas(), this -> columnas());
-  for (int i=0; i<this -> filas(); i++){
-    for (int j=0; j<this -> columnas(); j++){
+  Matriz C = Matriz(cantFilas, cantColumnas);
+  for (int i=0; i<cantFilas; i++){
+    for (int j=0; j<cantColumnas; j++){
       C[i][j] = data[j][i];
     }
   }
+  return C;
 }
 
 vector<double>& Matriz:: operator [](int i) {
@@ -146,6 +148,29 @@ bool Matriz::esTriangularInferior(){
     }
   }
   return true;
+}
+
+Matriz Matriz::cholesky() {
+  Matriz L = Matriz(cantFilas, cantColumnas);
+  L[0][0] = sqrt(data[0][0]);
+  for (int i=1; i<cantFilas; i++){
+    L[i][0] = data[i][0] / L[0][0];
+  }
+  for (int j=1; j<cantFilas; j++){
+    double acum1 = 0;
+    for (int k=0; k<j; k++){
+      acum1 = acum1 + pow(L[j][k], 2.0);
+    }
+    L[j][j] = sqrt(data[j][j] - acum1);
+    for (int i=j+1; i<cantFilas; i++){
+      double acum2 = 0;
+      for (int k=0; k<j; k++){
+        acum2 = acum2 + (L[i][k] * L[j][k]);
+      }
+      L[i][j] = (data[i][j] - acum2) / L[j][j];
+    }
+  }
+  return L;
 }
 
 ostream& operator<<(ostream& os, Matriz& m) {

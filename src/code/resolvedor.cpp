@@ -12,6 +12,7 @@ Resolvedor::Resolvedor(Matriz& m){
 /*  vector<Matriz> lu = m.lu();
   L = lu[0];
   U = lu[1];*/
+  L = Matriz(0,0);
   matriz = m;
 }
 
@@ -75,4 +76,21 @@ Matriz Resolvedor::resolverUsandoGauss(Matriz& b){
   }
   Matriz sol = resolverTriangular(m, y);
   return sol;
+}
+
+Matriz Resolvedor::resolverUsandoCholesky(Matriz& b){
+  if (L.filas() == 0){
+    L = matriz.cholesky();
+    L_t = L.trasponer();
+  }
+
+  cout << "L: " << endl;
+  cout << L << endl;
+
+  cout << "L_t: " << endl;
+  cout << L_t << endl;
+
+  Matriz y = resolverTriangular(L,b);
+  Matriz x = resolverTriangular(L_t, y);
+  return x;
 }

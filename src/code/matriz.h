@@ -19,6 +19,7 @@ public:
     Matriz(int filas, int columnas);
     int filas();
     int columnas();
+    Matriz cholesky();
     vector<double>& operator[] (int i);
     Matriz operator +(Matriz& m2);
     Matriz operator -(Matriz& m2);
