@@ -1,10 +1,15 @@
 #include "matriz.h"
 #include "resolvedor.h"
+#include "Parametros.h"
+#include "FileManager.h"
 
 using namespace std;
 
 int main(int argc, char **argv) {
 
+	FileManager fm = FileManager(argv[1], argv[2], argv[3]);
+	Parametros p = fm.read();
+	Matriz t = p.c;
 
 	Matriz m = Matriz(3,3);
 	m[0][0] = 1;
