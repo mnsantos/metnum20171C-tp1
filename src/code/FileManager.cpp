@@ -40,26 +40,6 @@ Parametros FileManager::read(){
 			int team_i, team_j, team_i_goals, team_j_goals;
 
 			inputFileStream >> date >> team_i >> team_i_goals >> team_j >> team_j_goals;
-
-
-			cout << "linea " << l << " " << date << " " << team_i << " " << team_i_goals << " " << team_j << " " <<team_j_goals << endl;
-			//if team_i was never before seen, it is indexed in the map, so to add wins-loses-points in the correct positions.
-			// it = teamsMap.find(team_i);
-  	// 		if (it == teamsMap.end())
-			// {
-			// 	teamsMap[team_i] = count;
-			// 	count++;
-			// }
-			// //if team_j was never before seen, it is indexed in the map, so to add wins-loses-points in the correct positions.
-			// it = teamsMap.find(team_j);
-  	// 		if (it == teamsMap.end())
-			// {
-			// 	teamsMap[team_j] = count;
-			// 	count++;
-			// }
-			//using both teams indexes from the map, wins-loses-points are updated.
-			// int i = teamsMap[team_i];
-			// int j = teamsMap[team_j];
 			int i = team_i-1;
 			int j = team_j-1;
 			if (team_i_goals > team_j_goals)
@@ -79,15 +59,17 @@ Parametros FileManager::read(){
 		}
 		//Creamos la matriz C y el vector b con los coeficientes correspondientes
 		c = Matriz(n,n);
+
+		cout << c <<endl;
 		b = Matriz(n,1);
 		for (int i = 0; i < n; ++i)
 		{
 			for (int j = 0; j < n; ++j)
 			{
-				double coef = (i != j) ? -challenges[i][j] : 2 + wins[i] + loses[i];
+				double coef = (i != j) ? -challenges[i][j] : (2 + wins[i] + loses[i]);
 				c[i][j] = coef;
 			}
-			b[i][0] = 1.0 + ((wins[i] - loses[i])/2);
+			b[i][0] = 1.0 + (wins[i] - loses[i])/2.0;
 		}
 	} else {
 		c = Matriz(1,1);
