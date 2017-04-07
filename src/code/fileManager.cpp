@@ -1,4 +1,4 @@
-#include "FileManager.h"
+#include "fileManager.h"
 #include <stdio.h>
 #include <vector>
 #include <iostream>
@@ -14,8 +14,6 @@ FileManager::FileManager(string inputFile, string outputFile, string method){
 }
 
 Parametros FileManager::read(){
-	Matriz c;
-	Matriz b;
 	int n;
 	int k;
 	vector<int> wins;
@@ -55,27 +53,17 @@ Parametros FileManager::read(){
 			points[i] += team_i_goals;
 			points[j] += team_j_goals;
 		}
-		//Creamos la matriz C y el vector b con los coeficientes correspondientes
-		c = Matriz(n,n);
+		
+	}
 
-		cout << c <<endl;
-		b = Matriz(n,1);
-		for (int i = 0; i < n; ++i)
-		{
-			for (int j = 0; j < n; ++j)
-			{
-				double coef = (i != j) ? -challenges[i][j] : (2 + wins[i] + loses[i]);
-				c[i][j] = coef;
-			}
-			b[i][0] = 1.0 + (wins[i] - loses[i])/2.0;
-		}
-	} else {
-		c = Matriz(1,1);
+	vector<Team> teams;
+	for (int i=0; i<n; i++) {
+		teams.push_back(Team(i,wins[i],loses[i],challenges[i]));
 	}
 	params.n = n;
 	params.k = k;
-	params.c = c;
-	params.b = b;
+	params.method = method;
+	params.teams = teams;
 
 	return params;
 }

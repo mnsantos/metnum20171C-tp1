@@ -84,11 +84,11 @@ Matriz Resolvedor::resolverUsandoCholesky(Matriz& b){
     L_t = L.trasponer();
   }
 
-  cout << "L: " << endl;
+/*  cout << "L: " << endl;
   cout << L << endl;
 
   cout << "L_t: " << endl;
-  cout << L_t << endl;
+  cout << L_t << endl;*/
 
   Matriz y = resolverTriangular(L,b);
   Matriz x = resolverTriangular(L_t, y);

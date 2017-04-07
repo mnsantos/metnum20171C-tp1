@@ -2,8 +2,9 @@
 #define FILEMANAGER_H
 #include <utility>
 #include <iostream>
-#include "Parametros.h"
+#include "parametros.h"
 #include "matriz.h"
+#include "team.h"
 #include <fstream>
 #include <stdio.h>
 #include <map>
