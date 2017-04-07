@@ -18,8 +18,6 @@ Parametros FileManager::read(){
 	Matriz b;
 	int n;
 	int k;
-	map<int, int> teamsMap = map<int, int>();
-	map<int,int>::iterator it;
 	vector<int> wins;
 	vector<int> loses;
 	vector<int> points;
@@ -76,15 +74,8 @@ Parametros FileManager::read(){
 	}
 	params.n = n;
 	params.k = k;
-	params.teamsMap = teamsMap;
 	params.c = c;
 	params.b = b;
-
-	
-	cout << params.n << endl;
-	cout << params.k << endl;
-	cout << params.c;
-	cout << params.b;
 
 	return params;
 }

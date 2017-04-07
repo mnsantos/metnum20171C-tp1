@@ -16,7 +16,6 @@ struct Parametros {
   int k; // Encounters
   Matriz b;
   Matriz c;
-  map<int, int> teamsMap;
 };
 
 #endif

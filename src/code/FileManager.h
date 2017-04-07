@@ -21,8 +21,6 @@ private:
     string inputFile;
     string outputFile;
     string method;
-    map<int, int> teamsMap;
-
 };
 
 #endif
