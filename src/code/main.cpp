@@ -7,62 +7,36 @@
 
 using namespace std;
 
-int main(int argc, char **argv) {
+Matriz calcularWP(vector<Team> teams) {
+  Matriz rs = Matriz(teams.size(),1);
+  for (int i=0; i<teams.size(); i++) {
+    rs[i][0] = (double) teams[i].wins() / (teams[i].wins() + teams[i].loses());
+  }
+  return rs;
+}
 
+int main(int argc, char **argv) {
   FileManager fm = FileManager(argv[1], argv[2], argv[3]);
   Parametros params = fm.read();
-
-  Armador armador = Armador();
-  vector<Matriz> sistema = armador.armarCMM(params.teams);
-  Matriz c = sistema[0];
-  Matriz b = sistema[1];
-
-  Resolvedor resolvedor = Resolvedor(c);
-
-
-  Matriz x;
-  if (params.method == "0") {
-    x = resolvedor.resolverUsandoGauss(b);
-  } else if (params.method == "1") {
-    x = resolvedor.resolverUsandoCholesky(b);
+  Matriz rankings;
+  if (params.method == "0" || params.method == "1") {
+    Armador armador = Armador();
+    vector<Matriz> sistema = armador.armarCMM(params.teams);
+    Matriz c = sistema[0];
+    Matriz b = sistema[1];
+    Resolvedor resolvedor = Resolvedor(c);
+    if (params.method == "0") {
+      rankings = resolvedor.resolverUsandoGauss(b);
+    } else {
+      rankings = resolvedor.resolverUsandoCholesky(b);
+    } 
   } else if (params.method == "2") {
-    cout << "Method 2 not implemented" << endl;
-    exit(EXIT_FAILURE);
+    rankings = calcularWP(params.teams);
   } else {
     cout << "Method " << params.method << " unrecognized" << endl;
     exit(EXIT_FAILURE);
   }   
 
-  fm.write(x);
-
-  // Matriz m = Matriz(3,3);
-  // m[0][0] = 1;
-  // m[0][1] = -1;
-  // m[0][2] = 2;
-
-  // m[1][0] = -1;
-  // m[1][1] = 5;
-  // m[1][2] = -4;
-
-  // m[2][0] = 2;
-  // m[2][1] = -4;
-  // m[2][2] = 6;
-
-  // Matriz b = Matriz(3,1);
-  // b[0][0] = 1;
-  // b[1][0] = 1;
-  // b[2][0] = 1;
-
-  // Resolvedor resolvedor = Resolvedor(m);
-  // Matriz x_gauss = resolvedor.resolverUsandoGauss(b);
-  // Matriz x_cholesky = resolvedor.resolverUsandoCholesky(b);
-
-  // Matriz b_res = m * x_gauss;
-
-  // cout << "A:\n" << m << endl;
-  // cout << "X (gauss):\n" << x_gauss << endl;
-  // cout << "X (cholesky):\n" << x_cholesky << endl;
-  // cout << "b:\n" << b << endl;
-  // cout << "A*x_gauss:\n" << b_res << endl;
-
+  fm.write(rankings);
 }
+
