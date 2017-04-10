@@ -75,3 +75,14 @@ void FileManager::write(Matriz result){
 		outFile << setprecision(9) << result[i][0] << endl;
 	}
 }
+
+void FileManager::writeTimeTestResults(Matriz result){
+	ofstream outFile;
+  	outFile.open((outputFile + "-time_tests").c_str());
+	for (int i=0; i<result.filas(); i++) {
+		for (int j=0; j<result.columnas(); j++) {
+			outFile << setprecision(9) << result[i][j] << " ";
+		}
+		outFile << endl;
+	}
+}

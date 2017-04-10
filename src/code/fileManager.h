@@ -17,6 +17,7 @@ public:
 	FileManager(string pathFileIn, string pathFileOut, string method);
     Parametros read();
     void write(Matriz result);
+    void writeTimeTestResults(Matriz result);
 
 private:
     string inputFile;
