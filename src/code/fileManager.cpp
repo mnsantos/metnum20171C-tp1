@@ -16,50 +16,45 @@ FileManager::FileManager(string inputFile, string outputFile, string method){
 Parametros FileManager::read(){
 	int n;
 	int k;
-	vector<int> wins;
-	vector<int> loses;
-	vector<int> points;
-	Matriz challenges;
 	ifstream inputFileStream;
 	Parametros params;
+	map<int, Team> teamsMap;
+	map<int, Team>::iterator it;
+	vector<Team> teams;
 
 	inputFileStream.open(inputFile.c_str());
 	if (inputFileStream.is_open()) {
 		int count = 0;
 		inputFileStream >> n >> k;
-		wins = vector<int>(n,0);
-		loses = vector<int>(n,0);
-		points = vector<int>(n,0);
-		challenges = Matriz(n,n);
 		for (int l = 0; l < k; ++l){
 			string date;
 			int team_i, team_j, team_i_goals, team_j_goals;
 
 			inputFileStream >> date >> team_i >> team_i_goals >> team_j >> team_j_goals;
-			int i = team_i-1;
-			int j = team_j-1;
-			if (team_i_goals > team_j_goals)
+			//if team_i was never before seen, it is indexed in the map, so to add wins-loses-points in the correct positions.
+			it = teamsMap.find(team_i);
+  			if (it == teamsMap.end())
 			{
-				wins[i] += 1;
-				loses[j] += 1;
-				challenges[i][j] += 1;
-				challenges[j][i] += 1;
-			} else {
-				wins[j] += 1;
-				loses[i] += 1;
-				challenges[i][j] += 1;
-				challenges[j][i] += 1;
+				Team team_a = Team(count, team_i);
+				teams.push_back(team_a);
+				teamsMap[team_i] = team_a;
+				count++;
 			}
-			points[i] += team_i_goals;
-			points[j] += team_j_goals;
+			//if team_j was never before seen, it is indexed in the map, so to add wins-loses-points in the correct positions.
+			it = teamsMap.find(team_j);
+  			if (it == teamsMap.end())
+			{
+				Team team_b = Team(count, team_j);
+				teams.push_back(team_b);
+				teamsMap[team_j] = team_b;
+				count++;
+			}
+			teamsMap[team_i].recordGame(team_i, team_i_goals, team_j_goals);
+			teamsMap[team_j].recordGame(team_j, team_j_goals, team_i_goals);
 		}
 		
 	}
 
-	vector<Team> teams;
-	for (int i=0; i<n; i++) {
-		teams.push_back(Team(i,wins[i],loses[i],challenges[i]));
-	}
 	params.n = n;
 	params.k = k;
 	params.method = method;
