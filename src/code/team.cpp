@@ -57,3 +57,11 @@ int Team::loses(){
 int Team::challenges(int team_id){
 	return chs[team_id];
 }
+
+int Team::getId() {
+	return id;
+}
+
+bool Team::operator<( const Team& t2 ) const { 
+    return nm < t2.nm; 
+}

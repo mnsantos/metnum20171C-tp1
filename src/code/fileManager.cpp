@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
+#include <algorithm>
 
 using namespace std;
 
@@ -26,6 +27,7 @@ Parametros FileManager::read(){
 	if (inputFileStream.is_open()) {
 		int count = 0;
 		inputFileStream >> n >> k;
+		teams = vector<Team>(n);
 		for (int l = 0; l < k; ++l){
 			string date;
 			int team_i, team_j, team_i_goals, team_j_goals;
@@ -36,7 +38,6 @@ Parametros FileManager::read(){
   			if (it == teamsMap.end())
 			{
 				Team team_a = Team(count, team_i);
-				teams.push_back(team_a);
 				teamsMap[team_i] = team_a;
 				count++;
 			}
@@ -45,16 +46,19 @@ Parametros FileManager::read(){
   			if (it == teamsMap.end())
 			{
 				Team team_b = Team(count, team_j);
-				teams.push_back(team_b);
 				teamsMap[team_j] = team_b;
 				count++;
 			}
-			teamsMap[team_i].recordGame(team_i, team_i_goals, team_j_goals);
-			teamsMap[team_j].recordGame(team_j, team_j_goals, team_i_goals);
+			teamsMap[team_i].recordGame(team_j, team_i_goals, team_j_goals);
+			teams[teamsMap[team_i].getId()] = teamsMap[team_i];
+			teamsMap[team_j].recordGame(team_i, team_j_goals, team_i_goals);
+			teams[teamsMap[team_j].getId()] = teamsMap[team_j];
 		}
+
 		
 	}
 
+	sort(teams.begin(), teams.end());
 	params.n = n;
 	params.k = k;
 	params.method = method;

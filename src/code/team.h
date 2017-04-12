@@ -24,7 +24,9 @@ public:
 	int name();
 	int loses();
 	int points();
+	int getId();
 	int challenges(int team_id);
+	bool operator<( const Team& t2 ) const;
 };
 
 #endif
