@@ -67,6 +67,14 @@ Parametros FileManager::read(){
 	return params;
 }
 
+void FileManager::writeExp(Matriz result, Parametros params){
+	ofstream outFile;
+  	outFile.open((outputFile + "-exp").c_str());
+	for (int i=0; i<result.filas(); i++) {
+		outFile << params.teams[i].name() << " " << params.teams[i].wins() << " " << params.teams[i].loses() << " " << setprecision(9) << result[i][0] << endl;
+	}
+}
+
 void FileManager::write(Matriz result){
 	ofstream outFile;
   	outFile.open(outputFile.c_str());

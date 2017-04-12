@@ -58,10 +58,12 @@ int main(int argc, char **argv) {
         rankings = resolvedor.resolverUsandoCholesky(b);
       } 
       fm.write(rankings);
+      fm.writeExp(rankings, params);
     }
   } else if (params.method == "2") {
     rankings = calcularWP(params.teams);
     fm.write(rankings);
+    fm.writeExp(rankings, params);
   } else {
     cout << "Method " << params.method << " unrecognized" << endl;
     exit(EXIT_FAILURE);
