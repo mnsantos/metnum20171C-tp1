@@ -50,8 +50,10 @@ Parametros FileManager::read(){
 				count++;
 			}
 			teamsMap[team_i].recordGame(team_j, team_i_goals, team_j_goals);
+			//cout << teamsMap[team_i].getId() << endl;
 			teams[teamsMap[team_i].getId()] = teamsMap[team_i];
 			teamsMap[team_j].recordGame(team_i, team_j_goals, team_i_goals);
+			//cout << teamsMap[team_j].getId() << endl;
 			teams[teamsMap[team_j].getId()] = teamsMap[team_j];
 		}
 

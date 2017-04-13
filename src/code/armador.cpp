@@ -14,7 +14,7 @@ vector<Matriz> Armador::armarCMM(vector<Team> teams) {
 			double coef = (i != j) ? -teams[i].challenges(teams[j].name()) : (2 + teams[i].wins() + teams[i].loses());
 			c[i][j] = coef;
 		}
-		b[i][0] = 1.0 + (teams[i].wins() - teams[i].loses())/2.0;
+		b[i][0] = 1.0 + ((teams[i].wins() - teams[i].loses())/2.0);
 	}
 	vector<Matriz> res;
 	res.push_back(c);

@@ -20,17 +20,14 @@ Team::Team(){
 
 void Team::recordGame(int oponente, int aFavor, int enContra){
 //if team_i was never before seen, it is indexed in the map, so to add wins-loses-points in the correct positions.
-	map<int,int>::iterator it;	
-	it = chs.find(oponente);
-	if (it == chs.end())
-	{
+	map<int,int>::iterator it = chs.find(oponente);
+	if (it == chs.end()) {
 		chs[oponente] = 1;
 	} else {
 		//si ya esta definido
 		chs[oponente] = chs[oponente]+1;
 	}
-	if (aFavor > enContra)
-	{
+	if (aFavor > enContra) {
 		ws++;
 	} else {
 		ls++;
@@ -55,7 +52,12 @@ int Team::loses(){
 }
 
 int Team::challenges(int team_id){
-	return chs[team_id];
+	map<int,int>::iterator it = chs.find(team_id);
+	if (it == chs.end()) {
+		return 0;
+	} else {
+		return chs[team_id];
+	}
 }
 
 int Team::getId() {
