@@ -6,8 +6,9 @@
 #include <stdlib.h>
 
 using namespace std;
-bool TESTS_FLAG = 0;
+bool TESTS_FLAG = 1;
 int iter = 10;
+bool variar_termino_independiente = 0;
 
 Matriz calcularWP(vector<Team> teams) {
   Matriz rs = Matriz(teams.size(),1);
@@ -18,24 +19,31 @@ Matriz calcularWP(vector<Team> teams) {
 }
 
 void timeTests(FileManager fm, Resolvedor resolvedor, Matriz c, Matriz b) {
-  Matriz resultados = Matriz(iter,2);
-  clock_t inicio, final;
+  Matriz resultados = Matriz(1,2);
+  clock_t inicio, inicio1, final, final1;
   double total_gauss, total_cholesky;
+  total_gauss = 0;
+  total_cholesky = 0;
   for (int i=0; i<iter; i++){
+    /*if (i == 0) {
+      resolvedor = Resolvedor(c);
+    }*/
     inicio = clock();
     resolvedor.resolverUsandoGauss(b);
     final = clock();
-    total_gauss = double(final - inicio) / CLOCKS_PER_SEC;
-    inicio = clock();
+    total_gauss = total_gauss + ((double(final - inicio) / CLOCKS_PER_SEC) * 1000);
+    inicio1 = clock();
     resolvedor.resolverUsandoCholesky(b);
-    final = clock();
-    total_cholesky = double(final - inicio) / CLOCKS_PER_SEC;
-    for (int j=0; j<b.filas(); j++) {
-      b[j][0] = rand() % 10 + 1;
+    final1 = clock();
+    total_cholesky = total_cholesky + ((double(final1 - inicio1) / CLOCKS_PER_SEC) * 1000);
+    if (variar_termino_independiente) {
+      for (int j=0; j<b.filas(); j++) {
+        b[j][0] = rand() % 10 + 1;
+      }
     }
-    resultados[i][0] = total_gauss;
-    resultados[i][1] = total_cholesky;
   }
+  resultados[0][0] = total_gauss / iter;
+  resultados[0][1] = total_cholesky / iter;
   fm.writeTimeTestResults(resultados);
 }
 
@@ -50,7 +58,7 @@ int main(int argc, char **argv) {
     Matriz b = sistema[1];
     Resolvedor resolvedor = Resolvedor(c);
     if (TESTS_FLAG) {
-      timeTests(fm, resolvedor, c,b);
+      timeTests(fm, resolvedor, c, b);
     } else {
       if (params.method == "0") {
         rankings = resolvedor.resolverUsandoGauss(b);

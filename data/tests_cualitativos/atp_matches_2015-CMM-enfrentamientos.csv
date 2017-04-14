@@ -1,0 +1,431 @@
+Jugador,Enfrentamientos
+"Novak,Djokovic",89
+"Roger,Federer",74
+"Andy,Murray",86
+"Stanislas,Wawrinka",74
+"Kei,Nishikori",72
+"Rafael,Nadal",81
+"Tomas,Berdych",79
+"David,Ferrer",71
+"Richard,Gasquet",60
+"Milos,Raonic",49
+"Jo Wilfried,Tsonga",48
+"Kevin,Anderson",70
+"Jack,Sock",53
+"John,Isner",70
+"Gael,Monfils",52
+"Gilles,Simon",67
+"Marcelo,Arevalo",4
+"Marin,Cilic",54
+"David,Goffin",64
+"Roberto,Bautista Agut",71
+"Grigor,Dimitrov",55
+"Benoit,Paire",42
+"Philipp,Kohlschreiber",56
+"Gilles,Muller",57
+"Ivo,Karlovic",63
+"Nick,Kyrgios",44
+"Mohammad,Ghareeb",3
+"Marcos,Baghdatis",45
+"Bernard,Tomic",68
+"Steve,Johnson",65
+"Chieh Fu,Wang",2
+"Dominic,Thiem",64
+"Feliciano,Lopez",58
+"Andreas,Seppi",52
+"Fabio,Fognini",58
+"Guillermo,Garcia Lopez",57
+"Viktor,Troicki",63
+"Aisam Ul Haq,Qureshi",2
+"Pierre Hugues,Herbert",13
+"Simone,Bolelli",55
+"Jeremy,Chardy",54
+"Vasek,Pospisil",48
+"Marton,Fucsovics",8
+"Gonzalo,Lama",2
+"Borna,Coric",54
+"Joao,Sousa",69
+"Christian,Garin",3
+"Inigo,Cervantes Huegun",6
+"Egor,Gerasimov",6
+"Juan Carlos,Saez",3
+"Daniel,Brands",3
+"Jan,Mertl",1
+"Leonardo,Mayer",51
+"Tommy,Robredo",45
+"Fernando,Verdasco",50
+"Donald,Young",45
+"Alexandr,Dolgopolov",52
+"Pablo,Cuevas",55
+"Juan,Monaco",40
+"Dimitar,Kuzmanov",5
+"Mischa,Zverev",15
+"Martin,Klizan",57
+"Thomaz,Bellucci",60
+"Christian,Garay",2
+"Jerzy,Janowicz",48
+"Martins,Podzus",4
+"Hyeon,Chung",22
+"Lucas,Pouille",26
+"Nicolas,Almagro",38
+"Marsel,Ilhan",26
+"Denis,Istomin",47
+"Oliver,Marach",1
+"Mirza,Basic",3
+"Evgeny,Donskoy",12
+"Sam,Querrey",44
+"Matteo,Donati",2
+"Victor,Estrella",40
+"Yen Hsun,Lu",41
+"Aljaz,Bedene",34
+"Damir,Dzumhur",17
+"Aqeel,Khan",5
+"Adrian,Mannarino",58
+"Samuel,Groth",41
+"Hans,Podlipnik Castillo",2
+"Steve,Darcis",25
+"Nicolas,Mahut",22
+"Daniel,Garza",3
+"Christopher,Rungkat",1
+"Henri,Laaksonen",5
+"Darian,King",7
+"Rajeev,Ram",13
+"Alex,Diaz",2
+"Andrey,Kuznetsov",22
+"Benjamin,Lock",4
+"Gianni,Mina",2
+"Alexander,Zverev",31
+"Nicolas,Xiviller",1
+"Aljaz,Radinski",1
+"Marat,Deviatiarov",1
+"Francis Casey,Alcantara",1
+"Joao,Domingues",1
+"Mauricio,Echazu",1
+"Tihomir,Grozdanov",1
+"Teymuraz,Gabashvili",39
+"Mikhail,Kukushkin",43
+"Federico,Delbonis",37
+"Juan Martin,Del Potro",4
+"Sergiy,Stakhovsky",47
+"Lofo,Ramiaramanana",1
+"Andreas,Haider Maurer",48
+"Lukas,Rosol",50
+"Peter,Nagy",3
+"Adrian,Ungur",4
+"Albert,Ramos",39
+"Jean Jacques,Rakotohasy",1
+"Jiri,Vesely",54
+"Yong Kyu,Lim",1
+"Marius,Copil",12
+"Gerald,Melzer",8
+"Santiago,Giraldo",51
+"Treat Conrad,Huey",1
+"Pablo,Andujar",40
+"James,Duckworth",20
+"David,Souto",3
+"Renzo,Olivo",4
+"Alex,Llompart",3
+"Jimmy,Wang",2
+"Robin,Haase",36
+"Carlos,Berlocq",18
+"Daniel,Gimeno Traver",31
+"Thanasi,Kokkinakis",32
+"Radek,Stepanek",17
+"Sunu Wahyu,Trijati",1
+"Austin,Krajicek",18
+"Dzmitry,Zhyrmont",4
+"Alejandro,Gomez GB42",2
+"Jurgen,Melzer",21
+"Harshana,Godamanna",3
+"Luis David,Martinez",1
+"Illya,Marchenko",12
+"Michael,Venus",7
+"Dustin,Brown",26
+"Daniel,Munoz De La Nava",5
+"Dusan,Lajovic",38
+"Ryan,Harrison",13
+"Romain,Arneodo",3
+"Taylor Harry,Fritz",2
+"Aslan,Karatsev",2
+"Marcel,Granollers",35
+"Ivan,Dodig",19
+"Jan,Hernych",4
+"Nikola,Mektic",2
+"Jaume,Munar",3
+"John,Millman",14
+"Ricardo,Rodriguez",5
+"Patrick,Tierro",2
+"Paul Henri,Mathieu",19
+"Jui Chen,Hung",5
+"Michael,Berrer",16
+"Dudi,Sela",18
+"Victor,Hanescu",2
+"Albert,Montanes",15
+"Ricardas,Berankis",34
+"Fritz,Wolmarans",3
+"Arthur,De Greef",2
+"Liam,Broady",2
+"M Abid Ali Khan,Akbar",2
+"Jarkko,Nieminen",30
+"Yuki,Bhambri",5
+"Denis,Kudla",22
+"Nicolas,Jarry",5
+"Thiemo,De Bakker",10
+"Tatsuma,Ito",20
+"Marcelo,Demoliner",2
+"Andrey,Rublev",21
+"Daniel Elahi,Galan Riveros",2
+"Rui,Machado",5
+"Zhizhen,Zhang",2
+"Diego Sebastian,Schwartzman",33
+"Tucker,Vorster",3
+"Emilio,Gomez",3
+"Frederik,Nielsen",4
+"Federico,Zeballos",2
+"Di,Wu",5
+"Alexander,Sarkissian",2
+"Bastian,Trinker",3
+"Aditya,Hari Sasongko",2
+"Ernests,Gulbis",35
+"Pablo,Carreno Busta",39
+"Florian,Mayer",13
+"Edouard Roger,Vasselin",18
+"Antso,Rakotondramanga",4
+"Horacio,Zeballos",6
+"Guido,Andreozzi",2
+"Mikael,Torpegaard",2
+"Malek,Jaziri",32
+"Go,Soeda",19
+"Nik,Razborsek",2
+"Dennis,Novak",3
+"Seong Chan,Hong",2
+"Germain,Gigounon",1
+"Andrea,Arnaboldi",4
+"Lukasz,Kubot",4
+"Mardy,Fish",6
+"Marco,Chiudinelli",4
+"Yoshihito,Nishioka",8
+"Ruben,Gonzales",2
+"Samir,Iftikhar",2
+"Ruben,Bemelmans",13
+"Nikoloz,Basilashvili",12
+"Benjamin,Becker",32
+"Lamine,Ouahab",7
+"Ze,Zhang",8
+"Bjorn,Fratangelo",2
+"Alejandro,Falla",20
+"Jesse,Huta Galung",3
+"Jared,Donaldson",11
+"Hady,Habib",2
+"Elias,Ymer",13
+"Roberto,Carballes Baena",3
+"Hiroki,Moriya",4
+"John Patrick,Smith",8
+"Blaz,Rola",10
+"Santiago,Maresca",2
+"Dimitar,Kutrovsky",2
+"Gonzalo,Escobar",4
+"Michal,Przysiezny",5
+"Kenny,De Schepper",14
+"Gabriel,Flores Ruiz",1
+"Tomislav,Brkic",3
+"Mikhail,Youzhny",33
+"Julian,Reister",3
+"Matthias,Bachinger",6
+"Somdev,Devvarman",5
+"Amir,Weintraub",2
+"Janko,Tipsarevic",10
+"Michael,Russell",1
+"Alexander,Lazov",3
+"Markus,Eriksson",1
+"Philip,Bester",1
+"Luca,Vanni",13
+"Takanyi,Garanganga",4
+"Duilio,Beretta",3
+"Yan,Bai",3
+"Benjamin,Balleret",5
+"Hugo,Dellien",4
+"Paolo,Lorenzi",29
+"Tommy,Haas",11
+"Tim,Smyczek",18
+"James,Ward",16
+"Nour,Nehme",1
+"Alejandro,Gonzalez",16
+"Yassine,Idmbarek",3
+"Tommy,Paul",1
+"Brydan,Klein",1
+"Lorenzo,Giustino",1
+"Abdullah,Maqdas",2
+"Peter,Gojowczyk",4
+"Facundo,Arguello",6
+"Naser,Al Obaidly",1
+"Shahin,Khaledan",3
+"Ryan,Shane",1
+"David,Guez",1
+"Lleyton,Hewitt",13
+"Laurynas,Grigelis",3
+"Gastao,Elias",3
+"Andrei,Ciumac",1
+"Jordan,Thompson",1
+"Gerardo,Lopez Villasenor",1
+"Zhe,Li",2
+"Miguel Angel,Este",1
+"Lucas,Gomez",1
+"Quentin,Halys",2
+"Filip,Krajinovic",17
+"Guido,Pella",9
+"Federico,Gaio",1
+"Frederico,Ferreira Silva",3
+"Tim,Puetz",1
+"Joao,Souza",25
+"Aleksandr,Nedovyesov",8
+"Giovanni,Lapentti",1
+"Alberto Emmanuel,Alvarado Larin",1
+"Radu,Albot",10
+"Jan Lennard,Struff",24
+"Taro,Daniel",8
+"Andrey,Golubev",14
+"Christian,Lindell",5
+"Maxime,Teixeira",1
+"Alexandre,Sidorenko",1
+"Andre,Ghem",1
+"Dawood,Sayed Hashim",1
+"Eric,Quigley",1
+"Michael,Lammer",1
+"Toni,Androic",2
+"Tim,Van Rijthoven",1
+"Rodrigo,Arus",1
+"Egor,Matvievici",1
+"Dmitrii,Baskov",1
+"Nerman,Fatic",1
+"Ruan,Roelofse",2
+"Mikael,Ymer",1
+"Mate,Pavic",1
+"Alex,Knaff",1
+"Ben,Fatael",1
+"Rodrigo,Banzer",1
+"Russell,Moseley",1
+"Lukas,Mugevicius",1
+"Dineshkanthan,Thangarajah",1
+"Mehdi,Jdi",1
+"Yaraslau,Shyla",1
+"Jabor,Al Mutawa",1
+"Mikhail,Ledovskikh",1
+"Edan,Leshem",1
+"Jacob,Rasolondrazana",2
+"Igor,Sijsling",13
+"Blaz,Kavcic",13
+"N Vijay,Sundar Prashanth",1
+"Francis,Tiafoe",6
+"Karen,Khachanov",1
+"Rafa,Orantes",1
+"David,Agung Susanto",3
+"Alex,Bolt",1
+"Christopher,Eubanks",1
+"Gilles,Kremer",2
+"Dennis,Novikov",1
+"Giovani,Samaha",1
+"Facundo,Bagnis",6
+"Chuhan,Wang",1
+"Calvin,Hemery",1
+"Laslo,Djere",1
+"Julien,Benneteau",6
+"Tobias,Kamke",6
+"Gabor,Borsos",3
+"Mohamed,Safwat",1
+"Jose,Hernandez",4
+"Rhyne,Williams",1
+"Luke,Saville",2
+"Karim,Alayli",1
+"Jeson,Patrombon",1
+"Adrien,Bossel",2
+"Martin,Fischer",1
+"Vladyslav,Manafov",1
+"Kimmer,Coppejans",4
+"Duilio,Vallebuona",1
+"Noah,Rubin",1
+"Lukas,Lacko",15
+"Mate,Delic",5
+"Marinko,Matosevic",19
+"Daniel,Evans",2
+"Matthew,Ebden",7
+"Jordi,Munoz Abreu",2
+"Yuichi,Sugita",8
+"Lucas,Miedler",1
+"David,Vega Hernandez",1
+"Constant,Lestienne",1
+"Andreas,Beck",1
+"Mikelis,Libietis",1
+"Laurent,Lokoli",2
+"Andres,Molteni",1
+"Yasutaka,Uchiyama",2
+"Temur,Ismailov",1
+"Kyle,Edmund",7
+"Maximilian,Marterer",2
+"Daniel,Glancy",2
+"Janis,Podzus",2
+"Henrik,Sillanpaa",2
+"Jose Rubin,Statham",4
+"Ivan,Endara",2
+"Julian,Saborio",2
+"Filip,Peliwo",3
+"Danai,Udomchoke",2
+"Marcus,Daniell",1
+"Rudolfs,Mednis",1
+"Andrei,Soltoianu",1
+"Takuto,Niki",1
+"Guilherme,Clezar",7
+"Thomas,Fabbiano",3
+"Matteo,Trevisan",1
+"Antonio,Veic",1
+"Sharmal,Dissanayake",4
+"Pere,Riba",2
+"Norbert,Gombos",7
+"Cem,Ilkel",6
+"Bar Tzuf,Botzer",2
+"Kamil,Majchrzak",1
+"Warit,Sornbutnark",4
+"Ibrahim,Abou Chahine",2
+"Franco,Skugor",1
+"Pablo,Nunez",2
+"Maxime,Hamou",2
+"Fabrice,Martin",1
+"Martin,Pedersen",2
+"Adrian,Menendez Maceiras",5
+"Mohsen,Hossein Zade",2
+"Ramkumar,Ramanathan",2
+"Rafael,Arevalo",2
+"Stephane,Robert",7
+"Uladzimir,Ignatik",2
+"Ante,Pavic",2
+"Grega,Zemlja",2
+"Mike,Urbanija",1
+"Niels,Desein",1
+"Jurgen,Zopp",2
+"Nicolas,Barrientos",1
+"Tigre,Hank",3
+"Jad,Ballout",1
+"Ji Sung,Nam",1
+"Konstantin,Kravchuk",2
+"Rogerio,Dutra Silva",3
+"James,Mcgee",3
+"Martin,Cuevas",2
+"Alexander,Kudryavtsev",2
+"Roberto,Cid",2
+"Anoosha,Shahgholi",2
+"Pruchya,Isarow",2
+"Tom,Kocevar Desman",2
+"Vincent,Millot",3
+"Ugo,Nastasi",3
+"Farrukh,Dustov",6
+"Ignaci,Roca",4
+"Stefan,Kozlov",2
+"Juan Pablo,Varillas Patino Samudio",3
+"Haydn,Lewis",2
+"Seanon,Williams",3
+"Micke,Kontinen",2
+"Sam,Barry",4
+"Maxim,Bulat",2
+"Maximo,Gonzalez",6
+"Marco,Cecchinato",7
+"Frank,Dancevic",5

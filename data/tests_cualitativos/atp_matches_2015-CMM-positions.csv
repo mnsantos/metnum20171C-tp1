@@ -1,0 +1,430 @@
+Posicion,Jugador,CMM
+1,"Novak,Djokovic",1.2672269
+2,"Roger,Federer",1.16401806
+3,"Andy,Murray",1.14113466
+4,"Stanislas,Wawrinka",1.03689392
+5,"Kei,Nishikori",1.022893
+6,"Rafael,Nadal",1.02091051
+7,"Tomas,Berdych",1.01331833
+8,"David,Ferrer",1.00587603
+9,"Richard,Gasquet",0.985300608
+10,"Milos,Raonic",0.927978693
+11,"Jo Wilfried,Tsonga",0.911582954
+12,"Kevin,Anderson",0.90184216
+13,"Jack,Sock",0.87458024
+14,"John,Isner",0.87275273
+15,"Gael,Monfils",0.870079555
+16,"Gilles,Simon",0.868399993
+17,"Marcelo,Arevalo",0.866425279
+18,"Marin,Cilic",0.86625454
+19,"David,Goffin",0.828900223
+20,"Roberto,Bautista Agut",0.823725888
+21,"Grigor,Dimitrov",0.820048667
+22,"Benoit,Paire",0.813915309
+23,"Philipp,Kohlschreiber",0.813532689
+24,"Gilles,Muller",0.811799208
+25,"Ivo,Karlovic",0.804330986
+26,"Nick,Kyrgios",0.802925897
+27,"Mohammad,Ghareeb",0.794806261
+28,"Marcos,Baghdatis",0.792462165
+29,"Bernard,Tomic",0.78512726
+30,"Steve,Johnson",0.773780277
+31,"Chieh Fu,Wang",0.766781629
+32,"Dominic,Thiem",0.760876566
+33,"Feliciano,Lopez",0.759671754
+34,"Andreas,Seppi",0.754644136
+35,"Fabio,Fognini",0.754361352
+36,"Guillermo,Garcia Lopez",0.751814511
+37,"Viktor,Troicki",0.745475743
+38,"Aisam Ul Haq,Qureshi",0.742604286
+39,"Pierre Hugues,Herbert",0.739263111
+40,"Simone,Bolelli",0.738891063
+41,"Jeremy,Chardy",0.738142596
+42,"Vasek,Pospisil",0.727922972
+43,"Marton,Fucsovics",0.725714294
+44,"Gonzalo,Lama",0.724677701
+45,"Borna,Coric",0.724028745
+46,"Joao,Sousa",0.723853585
+47,"Christian,Garin",0.722988067
+48,"Inigo,Cervantes Huegun",0.721772778
+49,"Egor,Gerasimov",0.717594515
+50,"Juan Carlos,Saez",0.716969917
+51,"Daniel,Brands",0.715823568
+52,"Jan,Mertl",0.713876367
+53,"Leonardo,Mayer",0.706612699
+54,"Tommy,Robredo",0.706307572
+55,"Fernando,Verdasco",0.702617721
+56,"Donald,Young",0.70072774
+57,"Alexandr,Dolgopolov",0.694003559
+58,"Pablo,Cuevas",0.691940245
+59,"Juan,Monaco",0.690315596
+60,"Dimitar,Kuzmanov",0.686150711
+61,"Mischa,Zverev",0.681098759
+62,"Martin,Klizan",0.680886312
+63,"Thomaz,Bellucci",0.678052197
+64,"Christian,Garay",0.677645345
+65,"Jerzy,Janowicz",0.675837826
+66,"Martins,Podzus",0.667516162
+67,"Hyeon,Chung",0.664111039
+68,"Lucas,Pouille",0.663171831
+69,"Nicolas,Almagro",0.662216672
+70,"Marsel,Ilhan",0.661188658
+71,"Denis,Istomin",0.657811276
+72,"Oliver,Marach",0.657207999
+73,"Mirza,Basic",0.655400321
+74,"Evgeny,Donskoy",0.655303705
+75,"Sam,Querrey",0.654743492
+76,"Matteo,Donati",0.65377671
+77,"Victor,Estrella",0.653640515
+78,"Yen Hsun,Lu",0.651368053
+79,"Aljaz,Bedene",0.650663712
+80,"Damir,Dzumhur",0.646638576
+81,"Aqeel,Khan",0.644865971
+82,"Adrian,Mannarino",0.642012772
+83,"Samuel,Groth",0.641629102
+84,"Hans,Podlipnik Castillo",0.640531805
+85,"Steve,Darcis",0.640293217
+86,"Nicolas,Mahut",0.639574372
+87,"Daniel,Garza",0.638238871
+88,"Christopher,Rungkat",0.637892947
+89,"Henri,Laaksonen",0.632986443
+90,"Darian,King",0.63228051
+91,"Rajeev,Ram",0.631347528
+92,"Alex,Diaz",0.630695579
+93,"Andrey,Kuznetsov",0.630295722
+94,"Benjamin,Lock",0.629327715
+95,"Gianni,Mina",0.627289001
+96,"Alexander,Zverev",0.626870516
+97,"Nicolas,Xiviller",0.625
+98,"Aljaz,Radinski",0.625
+99,"Marat,Deviatiarov",0.625
+100,"Francis Casey,Alcantara",0.625
+101,"Joao,Domingues",0.625
+102,"Mauricio,Echazu",0.625
+103,"Tihomir,Grozdanov",0.625
+104,"Teymuraz,Gabashvili",0.624530733
+105,"Mikhail,Kukushkin",0.624068075
+106,"Federico,Delbonis",0.621692892
+107,"Juan Martin,Del Potro",0.621151889
+108,"Sergiy,Stakhovsky",0.620558936
+109,"Lofo,Ramiaramanana",0.620004424
+110,"Andreas,Haider Maurer",0.618736485
+111,"Lukas,Rosol",0.617478227
+112,"Peter,Nagy",0.614434153
+113,"Adrian,Ungur",0.609854152
+114,"Albert,Ramos",0.609428085
+115,"Jean Jacques,Rakotohasy",0.607831883
+116,"Jiri,Vesely",0.606159159
+117,"Yong Kyu,Lim",0.605828276
+118,"Marius,Copil",0.605495705
+119,"Gerald,Melzer",0.603288323
+120,"Santiago,Giraldo",0.601788507
+121,"Treat Conrad,Huey",0.60164505
+122,"Pablo,Andujar",0.595738353
+123,"James,Duckworth",0.594649003
+124,"David,Souto",0.594486383
+125,"Renzo,Olivo",0.592455722
+126,"Alex,Llompart",0.59118177
+127,"Jimmy,Wang",0.590302355
+128,"Robin,Haase",0.589782046
+129,"Carlos,Berlocq",0.588037843
+130,"Daniel,Gimeno Traver",0.58768989
+131,"Thanasi,Kokkinakis",0.587322265
+132,"Radek,Stepanek",0.586419398
+133,"Sunu Wahyu,Trijati",0.58326046
+134,"Austin,Krajicek",0.582256232
+135,"Dzmitry,Zhyrmont",0.581645487
+136,"Alejandro,Gomez GB42",0.581338526
+137,"Jurgen,Melzer",0.578989665
+138,"Harshana,Godamanna",0.577378192
+139,"Luis David,Martinez",0.575252105
+140,"Illya,Marchenko",0.575066712
+141,"Michael,Venus",0.575038989
+142,"Dustin,Brown",0.572661909
+143,"Daniel,Munoz De La Nava",0.571993029
+144,"Dusan,Lajovic",0.571561701
+145,"Ryan,Harrison",0.570490035
+146,"Romain,Arneodo",0.569409236
+147,"Taylor Harry,Fritz",0.567961915
+148,"Aslan,Karatsev",0.566304973
+149,"Marcel,Granollers",0.563060624
+150,"Ivan,Dodig",0.562292973
+151,"Jan,Hernych",0.562195886
+152,"Nikola,Mektic",0.561375291
+153,"Jaume,Munar",0.560924176
+154,"John,Millman",0.558095371
+155,"Ricardo,Rodriguez",0.557408428
+156,"Patrick,Tierro",0.557186561
+157,"Paul Henri,Mathieu",0.556398263
+158,"Jui Chen,Hung",0.556215716
+159,"Michael,Berrer",0.552811545
+160,"Dudi,Sela",0.552556636
+161,"Victor,Hanescu",0.551582835
+162,"Albert,Montanes",0.548268971
+163,"Ricardas,Berankis",0.547153521
+164,"Fritz,Wolmarans",0.544742186
+165,"Arthur,De Greef",0.543916895
+166,"Liam,Broady",0.543063421
+167,"M Abid Ali Khan,Akbar",0.539582666
+168,"Jarkko,Nieminen",0.539482542
+169,"Yuki,Bhambri",0.537417625
+170,"Denis,Kudla",0.537262176
+171,"Nicolas,Jarry",0.53586886
+172,"Thiemo,De Bakker",0.535069577
+173,"Tatsuma,Ito",0.532891938
+174,"Marcelo,Demoliner",0.531969564
+175,"Andrey,Rublev",0.530306502
+176,"Daniel Elahi,Galan Riveros",0.527284279
+177,"Rui,Machado",0.527029617
+178,"Zhizhen,Zhang",0.526944049
+179,"Diego Sebastian,Schwartzman",0.52500387
+180,"Tucker,Vorster",0.523908469
+181,"Emilio,Gomez",0.52049284
+182,"Frederik,Nielsen",0.519200225
+183,"Federico,Zeballos",0.517995052
+184,"Di,Wu",0.517347106
+185,"Alexander,Sarkissian",0.515937494
+186,"Bastian,Trinker",0.515225622
+187,"Aditya,Hari Sasongko",0.514636203
+188,"Ernests,Gulbis",0.514569819
+189,"Pablo,Carreno Busta",0.512175905
+190,"Florian,Mayer",0.511197755
+191,"Edouard Roger,Vasselin",0.510629125
+192,"Antso,Rakotondramanga",0.507710891
+193,"Horacio,Zeballos",0.507230433
+194,"Guido,Andreozzi",0.506892794
+195,"Mikael,Torpegaard",0.506696636
+196,"Malek,Jaziri",0.505654607
+197,"Go,Soeda",0.501617037
+198,"Nik,Razborsek",0.49945064
+199,"Dennis,Novak",0.498288892
+200,"Seong Chan,Hong",0.497584893
+201,"Germain,Gigounon",0.495100203
+202,"Andrea,Arnaboldi",0.494273599
+203,"Lukasz,Kubot",0.494200837
+204,"Mardy,Fish",0.494054744
+205,"Marco,Chiudinelli",0.490645919
+206,"Yoshihito,Nishioka",0.490582616
+207,"Ruben,Gonzales",0.489075801
+208,"Samir,Iftikhar",0.48845669
+209,"Ruben,Bemelmans",0.488368413
+210,"Nikoloz,Basilashvili",0.486786706
+211,"Benjamin,Becker",0.485713992
+212,"Lamine,Ouahab",0.484247931
+213,"Ze,Zhang",0.474818122
+214,"Bjorn,Fratangelo",0.471974643
+215,"Alejandro,Falla",0.47186782
+216,"Jesse,Huta Galung",0.471623996
+217,"Jared,Donaldson",0.471541525
+218,"Hady,Habib",0.470578336
+219,"Elias,Ymer",0.470400063
+220,"Roberto,Carballes Baena",0.46663302
+221,"Hiroki,Moriya",0.465925576
+222,"John Patrick,Smith",0.464232409
+223,"Blaz,Rola",0.462206594
+224,"Santiago,Maresca",0.461832021
+225,"Dimitar,Kutrovsky",0.461370125
+226,"Gonzalo,Escobar",0.45976534
+227,"Michal,Przysiezny",0.459710539
+228,"Kenny,De Schepper",0.456922834
+229,"Gabriel,Flores Ruiz",0.455475093
+230,"Tomislav,Brkic",0.455400321
+231,"Mikhail,Youzhny",0.451687204
+232,"Julian,Reister",0.451161392
+233,"Matthias,Bachinger",0.447266769
+234,"Somdev,Devvarman",0.445616159
+235,"Amir,Weintraub",0.445245925
+236,"Janko,Tipsarevic",0.443730159
+237,"Michael,Russell",0.442966741
+238,"Alexander,Lazov",0.441406526
+239,"Markus,Eriksson",0.43797177
+240,"Philip,Bester",0.437266403
+241,"Luca,Vanni",0.437256232
+242,"Takanyi,Garanganga",0.436853158
+243,"Duilio,Beretta",0.433741336
+244,"Yan,Bai",0.431848315
+245,"Benjamin,Balleret",0.431671344
+246,"Hugo,Dellien",0.42772356
+247,"Paolo,Lorenzi",0.426511014
+248,"Tommy,Haas",0.425718394
+249,"Tim,Smyczek",0.424938749
+250,"James,Ward",0.424862263
+251,"Nour,Nehme",0.422260543
+252,"Alejandro,Gonzalez",0.422200554
+253,"Yassine,Idmbarek",0.421442427
+254,"Tommy,Paul",0.418214712
+255,"Brydan,Klein",0.418214712
+256,"Lorenzo,Giustino",0.417271504
+257,"Abdullah,Maqdas",0.415865055
+258,"Peter,Gojowczyk",0.415779165
+259,"Facundo,Arguello",0.414963403
+260,"Naser,Al Obaidly",0.414201429
+261,"Shahin,Khaledan",0.413678841
+262,"Ryan,Shane",0.412714199
+263,"David,Guez",0.412714199
+264,"Lleyton,Hewitt",0.410963637
+265,"Laurynas,Grigelis",0.410908115
+266,"Gastao,Elias",0.410905587
+267,"Andrei,Ciumac",0.408571431
+268,"Jordan,Thompson",0.407951195
+269,"Gerardo,Lopez Villasenor",0.407662689
+270,"Zhe,Li",0.406041497
+271,"Miguel Angel,Este",0.405656639
+272,"Lucas,Gomez",0.405656639
+273,"Quentin,Halys",0.403889879
+274,"Filip,Krajinovic",0.403782818
+275,"Guido,Pella",0.403221198
+276,"Federico,Gaio",0.402204233
+277,"Frederico,Ferreira Silva",0.400834732
+278,"Tim,Puetz",0.40024258
+279,"Joao,Souza",0.397013072
+280,"Aleksandr,Nedovyesov",0.396346802
+281,"Giovanni,Lapentti",0.392684066
+282,"Alberto Emmanuel,Alvarado Larin",0.392548448
+283,"Radu,Albot",0.392228015
+284,"Jan Lennard,Struff",0.389410347
+285,"Taro,Daniel",0.388225186
+286,"Andrey,Golubev",0.38711893
+287,"Christian,Lindell",0.38695329
+288,"Maxime,Teixeira",0.385937092
+289,"Alexandre,Sidorenko",0.385101235
+290,"Andre,Ghem",0.384546838
+291,"Dawood,Sayed Hashim",0.38162199
+292,"Eric,Quigley",0.380670924
+293,"Michael,Lammer",0.380097739
+294,"Toni,Androic",0.379078938
+295,"Tim,Van Rijthoven",0.377662148
+296,"Rodrigo,Arus",0.377426837
+297,"Egor,Matvievici",0.376442572
+298,"Dmitrii,Baskov",0.376442572
+299,"Nerman,Fatic",0.376442572
+300,"Ruan,Roelofse",0.375968565
+301,"Mikael,Ymer",0.375623505
+302,"Mate,Pavic",0.375623505
+303,"Alex,Knaff",0.375
+304,"Ben,Fatael",0.375
+305,"Rodrigo,Banzer",0.375
+306,"Russell,Moseley",0.375
+307,"Lukas,Mugevicius",0.375
+308,"Dineshkanthan,Thangarajah",0.375
+309,"Mehdi,Jdi",0.375
+310,"Yaraslau,Shyla",0.374843578
+311,"Jabor,Al Mutawa",0.373519645
+312,"Mikhail,Ledovskikh",0.373519645
+313,"Edan,Leshem",0.369951384
+314,"Jacob,Rasolondrazana",0.369828843
+315,"Igor,Sijsling",0.369814194
+316,"Blaz,Kavcic",0.369264692
+317,"N Vijay,Sundar Prashanth",0.36871972
+318,"Francis,Tiafoe",0.36691767
+319,"Karen,Khachanov",0.365246118
+320,"Rafa,Orantes",0.363727257
+321,"David,Agung Susanto",0.363524405
+322,"Alex,Bolt",0.363260682
+323,"Christopher,Eubanks",0.362139799
+324,"Gilles,Kremer",0.360013273
+325,"Dennis,Novikov",0.359663222
+326,"Giovani,Samaha",0.359126064
+327,"Facundo,Bagnis",0.358492014
+328,"Chuhan,Wang",0.35834633
+329,"Calvin,Hemery",0.357187234
+330,"Laslo,Djere",0.357187234
+331,"Julien,Benneteau",0.356892826
+332,"Tobias,Kamke",0.356120342
+333,"Gabor,Borsos",0.35528253
+334,"Mohamed,Safwat",0.354097658
+335,"Jose,Hernandez",0.354035087
+336,"Rhyne,Williams",0.352698457
+337,"Luke,Saville",0.352559839
+338,"Karim,Alayli",0.352071905
+339,"Jeson,Patrombon",0.352071905
+340,"Adrien,Bossel",0.350390533
+341,"Martin,Fischer",0.34942299
+342,"Vladyslav,Manafov",0.349051174
+343,"Kimmer,Coppejans",0.347213533
+344,"Duilio,Vallebuona",0.34528962
+345,"Noah,Rubin",0.344297313
+346,"Lukas,Lacko",0.343955562
+347,"Mate,Delic",0.34338736
+348,"Marinko,Matosevic",0.343353463
+349,"Daniel,Evans",0.343112381
+350,"Matthew,Ebden",0.342060019
+351,"Jordi,Munoz Abreu",0.341302377
+352,"Yuichi,Sugita",0.338623372
+353,"Lucas,Miedler",0.33818994
+354,"David,Vega Hernandez",0.337391968
+355,"Constant,Lestienne",0.337391968
+356,"Andreas,Beck",0.336876375
+357,"Mikelis,Libietis",0.33590363
+358,"Laurent,Lokoli",0.335647517
+359,"Andres,Molteni",0.335630931
+360,"Yasutaka,Uchiyama",0.333520533
+361,"Temur,Ismailov",0.332528298
+362,"Kyle,Edmund",0.331348131
+363,"Maximilian,Marterer",0.331337296
+364,"Daniel,Glancy",0.32481
+365,"Janis,Podzus",0.323495649
+366,"Henrik,Sillanpaa",0.323315705
+367,"Jose Rubin,Statham",0.322112341
+368,"Ivan,Endara",0.321480256
+369,"Julian,Saborio",0.318032932
+370,"Filip,Peliwo",0.317950475
+371,"Danai,Udomchoke",0.317484829
+372,"Marcus,Daniell",0.315205386
+373,"Rudolfs,Mednis",0.313802175
+374,"Andrei,Soltoianu",0.312284386
+375,"Takuto,Niki",0.310616105
+376,"Guilherme,Clezar",0.309839882
+377,"Thomas,Fabbiano",0.30955345
+378,"Matteo,Trevisan",0.308837005
+379,"Antonio,Veic",0.308287421
+380,"Sharmal,Dissanayake",0.304935151
+381,"Pere,Riba",0.304806131
+382,"Norbert,Gombos",0.304449752
+383,"Cem,Ilkel",0.304021422
+384,"Bar Tzuf,Botzer",0.303837464
+385,"Kamil,Majchrzak",0.303636038
+386,"Warit,Sornbutnark",0.302053646
+387,"Ibrahim,Abou Chahine",0.301895942
+388,"Franco,Skugor",0.301260939
+389,"Pablo,Nunez",0.297026002
+390,"Maxime,Hamou",0.297003433
+391,"Fabrice,Martin",0.29570631
+392,"Martin,Pedersen",0.290150556
+393,"Adrian,Menendez Maceiras",0.2900922
+394,"Mohsen,Hossein Zade",0.289582666
+395,"Ramkumar,Ramanathan",0.289240003
+396,"Rafael,Arevalo",0.287973703
+397,"Stephane,Robert",0.287086571
+398,"Uladzimir,Ignatik",0.283689793
+399,"Ante,Pavic",0.281836875
+400,"Grega,Zemlja",0.281533059
+401,"Mike,Urbanija",0.281318521
+402,"Niels,Desein",0.281318521
+403,"Jurgen,Zopp",0.281029584
+404,"Nicolas,Barrientos",0.279541124
+405,"Tigre,Hank",0.273536309
+406,"Jad,Ballout",0.268311717
+407,"Ji Sung,Nam",0.267351215
+408,"Konstantin,Kravchuk",0.267130946
+409,"Rogerio,Dutra Silva",0.265053981
+410,"James,Mcgee",0.258500848
+411,"Martin,Cuevas",0.255997265
+412,"Alexander,Kudryavtsev",0.251631323
+413,"Roberto,Cid",0.251551708
+414,"Anoosha,Shahgholi",0.249781379
+415,"Pruchya,Isarow",0.248041307
+416,"Tom,Kocevar Desman",0.246334016
+417,"Vincent,Millot",0.245211217
+418,"Ugo,Nastasi",0.231046345
+419,"Farrukh,Dustov",0.230673437
+420,"Ignaci,Roca",0.225756314
+421,"Stefan,Kozlov",0.224120068
+422,"Juan Pablo,Varillas Patino Samudio",0.220824845
+423,"Haydn,Lewis",0.218631982
+424,"Seanon,Williams",0.215047575
+425,"Micke,Kontinen",0.208126519
+426,"Sam,Barry",0.199852839
+427,"Maxim,Bulat",0.198033922
+428,"Maximo,Gonzalez",0.188422908
+429,"Marco,Cecchinato",0.183109123
