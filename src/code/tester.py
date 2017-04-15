@@ -5,6 +5,7 @@ import glob
 import time
 import random
 import subprocess
+import csv
 
 methods = [0, 1]
 data_path = "../../data/tests_tiempos/"
@@ -37,16 +38,68 @@ def test(minimo, maximo, salto):
 	os.system('python metnum.py build')
 	os.chdir("code")
 
-	results = []
-	for i in range(minimo, maximo+1):
-		for method in methods:
-			entrada = './../data/tests_tiempos/generated_' + str(i) + '.dat'
-			salida = '../../data/tests_tiempos/generated_' + str(i) + '-out-' + str(method)
-			os.system('./../tp ' + entrada + ' ' + salida + ' ' + str(method))
-			with open(name, 'w') as f:
+	totales_gauss = []
+	totales_cholesky = []
+	# for i in range(minimo, maximo+1, salto):
+	# 	entrada = '../../data/tests_tiempos/generated_' + str(i) + '.dat'
+	# 	salida = '../../data/tests_tiempos/generated_' + str(i) + '-out'
+	# 	os.system('./../tp ' + entrada + ' ' + salida + ' 1')
+	# 	#print './../tp ' + entrada + ' ' + salida + ' ' + str(method)
+	# 	with open(salida + '-time_tests', 'rb') as f:
+	# 		reader = csv.reader(f, delimiter=' ')
+	# 		for row in reader:
+	# 			total_gauss = [i, row[0]]
+	# 			total_cholesky = [i, row[1]]
+	# 			totales_gauss.append(total_gauss)
+	# 			totales_cholesky.append(total_cholesky)
 
-			total_gauss = 
-			total_cholesky = 
+	for i in range(minimo, maximo+1, salto):
+		entrada = '../../data/tests_tiempos/generated_' + str(i) + '.dat'
+		salida = '../../data/tests_tiempos/generated_' + str(i) + '-out'
+		os.system('./../tp ' + entrada + ' ' + salida + ' 1')
+		#print './../tp ' + entrada + ' ' + salida + ' ' + str(method)
+		with open(salida + '-time_tests', 'rb') as f:
+			reader = csv.reader(f, delimiter=' ')
+			for row in reader:
+				total_gauss = row[0]
+				total_cholesky = row[1]
+				totales_gauss.append(total_gauss)
+				totales_cholesky.append(total_cholesky)
+	printTiempos_2(zip(range(1, len(totales_cholesky)+1), totales_cholesky), zip(range(1, len(totales_cholesky)+1), totales_gauss), 'prueba')
+
+def printTiempos_2(tiemposCholesky, tiemposGauss, filename):
+	print tiemposCholesky
+	print tiemposGauss
+	# X = [ x[0] for x in tiemposCholesky ]
+	# Y = [ x[1] for x in tiemposCholesky ]
+	# plt.plot(X, Y, label='Cholesky')
+	X = [ x[0] for x in tiemposGauss ] 
+	Y = [ x[1] for x in tiemposGauss ]
+	plt.plot(X, Y, label='Gauss')
+	#plt.title(title)
+	plt.xlabel('Iteracion')
+	plt.ylabel('Tiempo en milisegundos')
+	plt.grid(True)
+	plt.legend(loc='upper center', shadow=True)
+	plt.savefig(data_path+filename+".png")
+	plt.close()
+	#plt.show()
+
+def printTiempos(tiemposCholesky, tiemposGauss, filename):
+	X = [ x[0] for x in tiemposCholesky ]
+	Y = [ x[1] for x in tiemposCholesky ]
+	plt.plot(X, Y, label='Cholesky')
+	X = [ x[0] for x in tiemposGauss ]
+	Y = [ x[1] for x in tiemposGauss ]
+	plt.plot(X, Y, label='Gauss')
+	#plt.title(title)
+	plt.xlabel('Cantidad de equipos')
+	plt.ylabel('Tiempo en milisegundos')
+	plt.grid(True)
+	plt.legend(loc='upper center', shadow=True)
+	plt.savefig(data_path+filename+".png")
+	plt.close()
+	#plt.show()
 
 	#files = glob.glob(data_path + '*.dat')
 
